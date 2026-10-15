@@ -197,7 +197,7 @@ def simplificar(registro: dict) -> dict:
 def data_info():
     return {
         "message": "Bienvenidos a la API del valor del dólar (USD a MXN) en 2026",
-        "author": "José Dani Calixtro De Jesus",
+        "author": "cristofer fernando ramirez medrano",
         "version": "1.0.0",
         "fuente": "Frankfurter API (tasas de referencia del Banco Central Europeo)",
         "nota": "Fines de semana y festivos repiten el último valor hábil (es_dia_habil: false).",
@@ -241,7 +241,7 @@ def resumen_dolar():
         "valor_actual": lista[-1]["valor"],
         "promedio": round(sum(valores) / len(valores), 4),
         "maximo": {"id": maximo["id"], "fecha": maximo["fecha"], "valor": maximo["valor"]},
-        "minimo": {"id": minimo["id"], "fecha": minimo["fecha"], "valor": minimo["valor"]},
+
     }
 
 
